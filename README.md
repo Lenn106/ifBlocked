@@ -8,6 +8,4 @@ A library for determining if a website is blocked by a school extension. Good fo
    ```javascript
    if (blocked('github.com') === true) {
        console.log("website blocked");
-   } else {
-       console.log("website unblocked");
    }
