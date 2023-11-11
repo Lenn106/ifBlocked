@@ -1,13 +1,13 @@
-# ifBlocked
+ # ifBlocked
 A library for determining if a website is blocked by a school extension. Good for exploit creators, and filtering unblocked links.
 
-# How to Use
-- Add 'script.js' in this repository to any code you want to use it in.
-- Done! You can now check if a website is blocked like this:
-  
-  <code>
-  if (blocked('github.com') === true) {
-    console.log("Blocked");
-} else {
-    console.log("Unblocked");
-  <code>
+## How to Use
+1. Add the 'script.js' file from this repository into your project.
+2. Once added, you can perform a check on a website like this:
+
+   ```javascript
+   if (blocked('github.com') === true) {
+       console.log("website blocked");
+   } else {
+       console.log("website unblocked");
+   }
