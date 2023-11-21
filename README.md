@@ -12,7 +12,7 @@ A library for determining if a website is blocked by a school extension. Good fo
 <details>
   <summary>Extension Utilities</summary>
 
-You can detect school extensions from a list and create custom handling for each one. You can also refer to the 'school' variable (true/false) for broad detection. 
+You can detect school extensions in the browser and create custom handling for each one. You can also refer to the 'school' variable (true/false) for broad detection. 
 
 ```javascript
 extensionUtil.check().then(result => {
