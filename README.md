@@ -17,7 +17,7 @@ You can detect school extensions in the browser and create custom handling for e
 ```javascript
 extensionUtil.check().then(result => {
   if (result.some(ext => ext.name === "Linewize")) {
-    console.log("Linewize extension detected");
+    console.log("linewize");
   }
 });
 ```
