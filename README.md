@@ -26,7 +26,7 @@ extensionUtil.check().then(result => {
   <summary>Block Detection</summary>
 You can detect if a website is blocked by a school extension, a tool for error handling and using alternative links.
 
-```
+```javascript
 if (blocked('github.com')) {
   console.log("The website is blocked");
 }
