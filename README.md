@@ -3,9 +3,18 @@ A library for determining if a website is blocked by a school extension. Good fo
 
 ## How to Use
 1. Add the 'script.js' file from this repository into your project.
-2. Once added, you can perform a check on a website like this:
+2. Once added, you can use one of the many features in the uses section.
 
-   ```javascript
-   if (blocked('github.com') === true) {
-       console.log("website blocked");
-   }
+# Uses 
+<details>
+  <summary>Extension Utilies</summary>
+You can detect school extensions and create custom handling for each one. You can also refer to the 'school' variable for a broad detection. 
+ 
+ ```
+extensionUtil.check().then(result => {
+        if (result.some(ext => ext.name === "Linewize")) {
+          console.log("linewize");
+          ```
+
+</details>
+
