@@ -1,5 +1,5 @@
 # ifBlocked
-A library for determining if a website is blocked by a school extension. Good for exploit creators, and filtering unblocked links.
+A library for determining if a website is blocked by a school extension. Good for exploit creators and filtering unblocked links.
 
 ## How to Use
 1. Add the 'script.js' file from this repository into your project.
@@ -16,12 +16,12 @@ extensionUtil.check().then(result => {
     console.log("linewize");
   }
 });
-
+```
 <details>
   <summary>Block Detection</summary>
 You can detect if a website is blocked by a school extension, a tool for error handling and using alternative links.
- 
  ```javascript
- if (blocked('github.com') === true) {
-       console.log("blocked");
-   } 
+if (blocked('github.com') === true) {
+  console.log("blocked");
+}
+```
