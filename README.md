@@ -5,9 +5,9 @@ A library for determining if a website is blocked by a school extension. Good fo
 ## How to Use
 
 1. Add the `script.js` file from this repository into your project.
-2. Once added, you can use one of the many features in the "Uses" section.
+2. Once added, you can use one the features listed below.
 
-# Uses 
+# Features 
 
 <details>
   <summary>Extension Utilities</summary>
@@ -32,3 +32,6 @@ if (blocked('github.com')) {
 }
 ```
 </details>
+
+# Examples/Uses
+test idk
