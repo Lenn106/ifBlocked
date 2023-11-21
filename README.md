@@ -28,7 +28,7 @@ You can detect if a website is blocked by a school extension, a tool for error h
 
 ```javascript
 if (blocked('github.com')) {
-  console.log("The website is blocked");
+  console.log("blocked");
 }
 ```
 </details>
