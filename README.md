@@ -1,6 +1,6 @@
 # ifBlocked
 
-A library for determining if a website is blocked by a school extension. This can be used responsibly for educational purposes, such as understanding web filtering or enhancing error handling with alternative links.
+A library for determining if a website is blocked by a school extension. Good for exploit creators and filtering unblocked links.
 
 ## How to Use
 
