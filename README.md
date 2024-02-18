@@ -33,5 +33,3 @@ if (blocked('github.com')) {
 ```
 </details>
 
-## Examples
-test idk
